@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 4
 Title "Prawnblaster Breakout Board, Output Buffers"
 Date "2020-12-11"
 Rev "v1.0"
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_Coaxial J5
+L Connector:Conn_Coaxial J3
 U 1 1 581320B7
 P 10300 2850
-F 0 "J5" H 10310 2970 50  0000 C CNN
+F 0 "J3" H 10310 2970 50  0000 C CNN
 F 1 "Flag_14" V 10410 2790 50  0000 C CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 10300 2850 50  0001 C CNN
 F 3 "" H 10300 2850 50  0000 C CNN
@@ -27,10 +27,10 @@ F 5 "733910070" H 10300 2850 50  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J8
+L Connector:Conn_Coaxial J4
 U 1 1 58132105
 P 10550 2600
-F 0 "J8" H 10560 2720 50  0000 C CNN
+F 0 "J4" H 10560 2720 50  0000 C CNN
 F 1 "Flag_13" V 10660 2540 50  0000 C CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 10550 2600 50  0001 C CNN
 F 3 "" H 10550 2600 50  0000 C CNN
@@ -40,10 +40,10 @@ F 5 "733910070" H 10550 2600 50  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J11
+L Connector:Conn_Coaxial J5
 U 1 1 5813214B
 P 10900 2350
-F 0 "J11" H 10910 2470 50  0000 C CNN
+F 0 "J5" H 10910 2470 50  0000 C CNN
 F 1 "Flag_12" V 11010 2290 50  0000 C CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 10900 2350 50  0001 C CNN
 F 3 "" H 10900 2350 50  0000 C CNN
@@ -53,10 +53,10 @@ F 5 "733910070" H 10900 2350 50  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR08
+L power:GND #PWR07
 U 1 1 58133A9C
 P 10550 3000
-F 0 "#PWR08" H 10550 2750 50  0001 C CNN
+F 0 "#PWR07" H 10550 2750 50  0001 C CNN
 F 1 "GND" H 10550 2850 50  0000 C CNN
 F 2 "" H 10550 3000 50  0000 C CNN
 F 3 "" H 10550 3000 50  0000 C CNN
@@ -64,10 +64,10 @@ F 3 "" H 10550 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
+L power:GND #PWR06
 U 1 1 58133B18
 P 10300 3250
-F 0 "#PWR05" H 10300 3000 50  0001 C CNN
+F 0 "#PWR06" H 10300 3000 50  0001 C CNN
 F 1 "GND" H 10300 3100 50  0000 C CNN
 F 2 "" H 10300 3250 50  0000 C CNN
 F 3 "" H 10300 3250 50  0000 C CNN
@@ -75,10 +75,10 @@ F 3 "" H 10300 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L power:GND #PWR04
 U 1 1 58133B56
 P 10050 3500
-F 0 "#PWR02" H 10050 3250 50  0001 C CNN
+F 0 "#PWR04" H 10050 3250 50  0001 C CNN
 F 1 "GND" H 10050 3350 50  0000 C CNN
 F 2 "" H 10050 3500 50  0000 C CNN
 F 3 "" H 10050 3500 50  0000 C CNN
@@ -86,10 +86,10 @@ F 3 "" H 10050 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR011
+L power:GND #PWR08
 U 1 1 58133D85
 P 10900 2750
-F 0 "#PWR011" H 10900 2500 50  0001 C CNN
+F 0 "#PWR08" H 10900 2500 50  0001 C CNN
 F 1 "GND" H 10900 2600 50  0000 C CNN
 F 2 "" H 10900 2750 50  0000 C CNN
 F 3 "" H 10900 2750 50  0000 C CNN
@@ -122,17 +122,6 @@ F 5 "ERJ8ENF49R9V" H 9350 2850 50  0001 C CNN "PN"
 	1    9350 2850
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R4
-U 1 1 58587D89
-P 9350 3100
-F 0 "R4" V 9430 3100 50  0000 C CNN
-F 1 "49.9" V 9350 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 9280 3100 50  0001 C CNN
-F 3 "" H 9350 3100 50  0000 C CNN
-	1    9350 3100
-	0    -1   -1   0   
-$EndComp
 $Sheet
 S 700  650  1000 500 
 U 5859818D
@@ -152,17 +141,15 @@ Wire Wire Line
 	10300 3050 10300 3250
 Wire Wire Line
 	10050 3300 10050 3500
-
 Wire Notes Line
 	9150 2150 9550 2150
 Text Notes 8650 2100 0    60   ~ 0
 Use at least 250 mW resistors!\n(70 mA @ 50 Ω)
-
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 5FEDAB5A
+L Mechanical:MountingHole H2
+U 1 1 614A335B
 P 950 5750
-F 0 "H1" H 1050 5795 50  0000 L CNN
+F 0 "H2" H 1050 5795 50  0000 L CNN
 F 1 "MountingHole" H 1050 5706 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 950 5750 50  0001 C CNN
 F 3 "~" H 950 5750 50  0001 C CNN
@@ -170,10 +157,10 @@ F 3 "~" H 950 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L Mechanical:MountingHole H3
 U 1 1 5FEDBA18
 P 950 6050
-F 0 "H2" H 1050 6095 50  0000 L CNN
+F 0 "H3" H 1050 6095 50  0000 L CNN
 F 1 "MountingHole" H 1050 6006 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 950 6050 50  0001 C CNN
 F 3 "~" H 950 6050 50  0001 C CNN
@@ -181,10 +168,10 @@ F 3 "~" H 950 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
-U 1 1 5FEDC6AA
+L Mechanical:MountingHole H6
+U 1 1 614A335D
 P 950 6350
-F 0 "H3" H 1050 6395 50  0000 L CNN
+F 0 "H6" H 1050 6395 50  0000 L CNN
 F 1 "MountingHole" H 1050 6306 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 950 6350 50  0001 C CNN
 F 3 "~" H 950 6350 50  0001 C CNN
@@ -192,17 +179,16 @@ F 3 "~" H 950 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
-U 1 1 5FEDD2EF
+L Mechanical:MountingHole H8
+U 1 1 614A335E
 P 950 6650
-F 0 "H4" H 1050 6695 50  0000 L CNN
+F 0 "H8" H 1050 6695 50  0000 L CNN
 F 1 "MountingHole" H 1050 6606 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 950 6650 50  0001 C CNN
 F 3 "~" H 950 6650 50  0001 C CNN
 	1    950  6650
 	1    0    0    -1  
 $EndComp
-
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO2
 U 1 1 60080B9C
@@ -239,7 +225,6 @@ F 5 "ERJ8ENF49R9V" H 9350 2600 50  0001 C CNN "PN"
 	1    9350 2600
 	0    -1   -1   0   
 $EndComp
-
 $Sheet
 S 5700 2200 1400 1950
 U 5859B68B
@@ -277,28 +262,11 @@ Wire Wire Line
 	7100 3600 8100 3600
 Wire Wire Line
 	8100 3600 8100 3100
-Wire Wire Line
-	6100 2950 7200 2950
-$Sheet
-S 3700 2200 1400 1950
-U 5859B68B
-F0 "Output Buffer" 60
-F1 "output_buffer.sch" 60
-F2 "Vcc" U L 3700 2300 60 
-F3 "A0" I L 3700 3600 50 
-F4 "A1" I L 3700 3500 50 
-F5 "A2" I L 3700 3400 50 
-F6 "A3" I L 3700 3300 50 
-F7 "B0" O R 5100 3600 50 
-F8 "B1" O R 5100 3500 50 
-F9 "B2" O R 5100 3400 50 
-F10 "B3" O R 5100 3300 50 
-$EndSheet
 $Comp
-L Mechanical:MountingHole H4
+L Mechanical:MountingHole H7
 U 1 1 5FEDD2EF
 P 950 6650
-F 0 "H4" H 1050 6695 50  0000 L CNN
+F 0 "H7" H 1050 6695 50  0000 L CNN
 F 1 "MountingHole" H 1050 6606 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 950 6650 50  0001 C CNN
 F 3 "~" H 950 6650 50  0001 C CNN
@@ -306,10 +274,10 @@ F 3 "~" H 950 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L Mechanical:MountingHole H5
 U 1 1 5FEDC6AA
 P 950 6350
-F 0 "H3" H 1050 6395 50  0000 L CNN
+F 0 "H5" H 1050 6395 50  0000 L CNN
 F 1 "MountingHole" H 1050 6306 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 950 6350 50  0001 C CNN
 F 3 "~" H 950 6350 50  0001 C CNN
@@ -317,10 +285,10 @@ F 3 "~" H 950 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
-U 1 1 5FEDBA18
+L Mechanical:MountingHole H4
+U 1 1 614A335C
 P 950 6050
-F 0 "H2" H 1050 6095 50  0000 L CNN
+F 0 "H4" H 1050 6095 50  0000 L CNN
 F 1 "MountingHole" H 1050 6006 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 950 6050 50  0001 C CNN
 F 3 "~" H 950 6050 50  0001 C CNN
@@ -339,151 +307,206 @@ F 3 "~" H 950 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 3400 3700 3400
+	5500 2300 5700 2300
 Wire Wire Line
-	2150 3500 3700 3500
-Wire Wire Line
-	1850 3600 3700 3600
-Wire Wire Line
-	2900 1750 1150 1750
-Wire Wire Line
-	3200 3800 750  3800
+	8100 3100 9200 3100
 $Comp
-L Connector:Conn_Coaxial J1
-U 1 1 614769F9
-P 2100 5050
-AR Path="/614769F9" Ref="J1"  Part="1" 
-AR Path="/61464E7A/614769F9" Ref="J?"  Part="1" 
-F 0 "J1" H 2200 5025 50  0000 L CNN
-F 1 "Conn_Coaxial" H 2200 4934 50  0000 L CNN
-F 2 "" H 2100 5050 50  0001 C CNN
-F 3 " ~" H 2100 5050 50  0001 C CNN
-	1    2100 5050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Logic_LevelTranslator:SN74LV1T34DBV U4
-U 1 1 614769FF
-P 2900 5050
-AR Path="/614769FF" Ref="U4"  Part="1" 
-AR Path="/61464E7A/614769FF" Ref="U?"  Part="1" 
-F 0 "U4" H 3244 5096 50  0000 L CNN
-F 1 "SN74LV1T34DBV" H 3244 5005 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3550 4800 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf" H 2500 4850 50  0001 C CNN
-	1    2900 5050
+L power:GND #PWR05
+U 1 1 6149FB0E
+P 10050 3500
+F 0 "#PWR05" H 10050 3250 50  0001 C CNN
+F 1 "GND" H 10050 3350 50  0000 C CNN
+F 2 "" H 10050 3500 50  0000 C CNN
+F 3 "" H 10050 3500 50  0000 C CNN
+	1    10050 3500
 	1    0    0    -1  
 $EndComp
 $Comp
+L Connector:Conn_Coaxial J2
+U 1 1 6149FB08
+P 10050 3100
+F 0 "J2" H 10060 3220 50  0000 C CNN
+F 1 "Flag_12" V 10160 3040 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 10050 3100 50  0001 C CNN
+F 3 "" H 10050 3100 50  0000 C CNN
+F 4 "Molex" H 10050 3100 60  0001 C CNN "MFN"
+F 5 "733910070" H 10050 3100 50  0001 C CNN "PN"
+	1    10050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 58587D89
+P 9350 3100
+F 0 "R4" V 9430 3100 50  0000 C CNN
+F 1 "49.9" V 9350 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9280 3100 50  0001 C CNN
+F 3 "" H 9350 3100 50  0000 C CNN
+	1    9350 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 3100 9850 3100
+Wire Wire Line
+	9500 2850 10100 2850
+Wire Wire Line
+	9500 2600 10350 2600
+Wire Wire Line
+	9500 2350 10700 2350
+NoConn ~ 1850 4500
+NoConn ~ 1850 4400
+NoConn ~ 1850 4300
+NoConn ~ 1850 4200
+NoConn ~ 1850 4000
+NoConn ~ 3250 2700
+NoConn ~ 3250 2800
+NoConn ~ 3250 3000
+NoConn ~ 3250 3200
+NoConn ~ 3250 3300
+NoConn ~ 3250 3500
+NoConn ~ 3250 3600
+NoConn ~ 3250 3700
+NoConn ~ 3250 3900
+NoConn ~ 3250 4000
+NoConn ~ 3250 4100
+NoConn ~ 3250 4200
+NoConn ~ 3250 4300
+NoConn ~ 3250 4400
+$Comp
 L power:GND #PWR01
+U 1 1 61497892
+P 3450 3800
+AR Path="/61497892" Ref="#PWR01"  Part="1" 
+AR Path="/61464E7A/61497892" Ref="#PWR?"  Part="1" 
+F 0 "#PWR01" H 3450 3550 50  0001 C CNN
+F 1 "GND" H 3455 3627 50  0000 C CNN
+F 2 "" H 3450 3800 50  0001 C CNN
+F 3 "" H 3450 3800 50  0001 C CNN
+	1    3450 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 4100 1700 4100
+Wire Wire Line
+	3250 3800 3450 3800
+NoConn ~ 2450 2400
+NoConn ~ 2550 2400
+NoConn ~ 2650 2400
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 614769F9
+P 2400 6500
+AR Path="/614769F9" Ref="J1"  Part="1" 
+AR Path="/61464E7A/614769F9" Ref="J?"  Part="1" 
+F 0 "J1" H 2500 6475 50  0000 L CNN
+F 1 "Conn_Coaxial" H 2500 6384 50  0000 L CNN
+F 2 "" H 2400 6500 50  0001 C CNN
+F 3 " ~" H 2400 6500 50  0001 C CNN
+	1    2400 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Logic_LevelTranslator:SN74LV1T34DBV U2
+U 1 1 614769FF
+P 3200 6500
+AR Path="/614769FF" Ref="U2"  Part="1" 
+AR Path="/61464E7A/614769FF" Ref="U?"  Part="1" 
+F 0 "U2" H 3544 6546 50  0000 L CNN
+F 1 "SN74LV1T34DBV" H 3544 6455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3850 6250 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf" H 2800 6300 50  0001 C CNN
+	1    3200 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
 U 1 1 61476A05
-P 2100 4650
-AR Path="/61476A05" Ref="#PWR01"  Part="1" 
+P 2400 6100
+AR Path="/61476A05" Ref="#PWR02"  Part="1" 
 AR Path="/61464E7A/61476A05" Ref="#PWR?"  Part="1" 
-F 0 "#PWR01" H 2100 4400 50  0001 C CNN
-F 1 "GND" H 2105 4477 50  0000 C CNN
-F 2 "" H 2100 4650 50  0001 C CNN
-F 3 "" H 2100 4650 50  0001 C CNN
-	1    2100 4650
+F 0 "#PWR02" H 2400 5850 50  0001 C CNN
+F 1 "GND" H 2405 5927 50  0000 C CNN
+F 2 "" H 2400 6100 50  0001 C CNN
+F 3 "" H 2400 6100 50  0001 C CNN
+	1    2400 6100
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 61476A0B
-P 2900 5550
+P 3200 7000
 AR Path="/61476A0B" Ref="#PWR03"  Part="1" 
 AR Path="/61464E7A/61476A0B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR03" H 2900 5300 50  0001 C CNN
-F 1 "GND" H 2905 5377 50  0000 C CNN
-F 2 "" H 2900 5550 50  0001 C CNN
-F 3 "" H 2900 5550 50  0001 C CNN
-	1    2900 5550
+F 0 "#PWR03" H 3200 6750 50  0001 C CNN
+F 1 "GND" H 3205 6827 50  0000 C CNN
+F 2 "" H 3200 7000 50  0001 C CNN
+F 3 "" H 3200 7000 50  0001 C CNN
+	1    3200 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 4850 2100 4650
+	2400 6300 2400 6100
 Wire Wire Line
-	2900 5350 2900 5550
+	3200 6800 3200 7000
 Wire Wire Line
-	2300 5050 2600 5050
+	2600 6500 2900 6500
 Wire Wire Line
-	3200 3800 3200 5050
-NoConn ~ 750  1950
-NoConn ~ 850  1950
-NoConn ~ 950  1950
-NoConn ~ 1050 1950
-NoConn ~ 1250 1950
-NoConn ~ 1350 1950
-NoConn ~ 1450 1950
-NoConn ~ 1550 1950
-NoConn ~ 1650 1950
-NoConn ~ 1750 1950
-NoConn ~ 1850 1950
-NoConn ~ 1950 1950
-NoConn ~ 2050 1950
-NoConn ~ 2150 1950
-NoConn ~ 2250 1950
-NoConn ~ 2350 1950
-NoConn ~ 2450 1950
-NoConn ~ 2550 1950
-NoConn ~ 2650 1950
-NoConn ~ 2550 3300
-NoConn ~ 2450 3300
-NoConn ~ 2250 3300
-NoConn ~ 2050 3300
-NoConn ~ 1950 3300
-NoConn ~ 1750 3300
-NoConn ~ 1650 3300
-NoConn ~ 1550 3300
-NoConn ~ 1350 3300
-NoConn ~ 1250 3300
-NoConn ~ 1150 3300
-NoConn ~ 1050 3300
-NoConn ~ 950  3300
-NoConn ~ 850  3300
+	1700 4100 1700 5500
+Wire Wire Line
+	3200 5500 3200 6200
+Wire Wire Line
+	3500 4500 3500 6500
+Wire Wire Line
+	5700 3600 3550 3600
+Wire Wire Line
+	3550 3600 3550 3400
+Wire Wire Line
+	5700 3500 3700 3500
+Wire Wire Line
+	3700 3500 3700 3100
+Wire Wire Line
+	3250 3100 3700 3100
+Wire Wire Line
+	3850 2900 3850 3400
+Wire Wire Line
+	3850 3400 5700 3400
+Wire Wire Line
+	3250 2900 3850 2900
+Wire Wire Line
+	5700 3300 4000 3300
+Wire Wire Line
+	4000 3300 4000 2600
+Wire Wire Line
+	4000 2600 3250 2600
+Wire Wire Line
+	3250 4500 3500 4500
+Wire Wire Line
+	3250 3400 3550 3400
 $Comp
-L power:GND #PWR0101
-U 1 1 61497892
-P 1450 3500
-AR Path="/61497892" Ref="#PWR0101"  Part="1" 
-AR Path="/61464E7A/61497892" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0101" H 1450 3250 50  0001 C CNN
-F 1 "GND" H 1455 3327 50  0000 C CNN
-F 2 "" H 1450 3500 50  0001 C CNN
-F 3 "" H 1450 3500 50  0001 C CNN
-	1    1450 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 1900 1150 1750
-Wire Wire Line
-	2650 3300 3700 3300
-Wire Wire Line
-	2350 3300 2350 3400
-Wire Wire Line
-	2150 3300 2150 3500
-Wire Wire Line
-	1850 3300 1850 3600
-Wire Wire Line
-	1450 3300 1450 3500
-Wire Wire Line
-	750  3300 750  3800
-Wire Wire Line
-	3100 800  3100 2300
-Wire Wire Line
-	2900 1750 2900 4750
-$Comp
-L MCU_RaspberryPi_and_Boards:Pico U3
+L PrawnBlaster-rescue:Pico-MCU_RaspberryPi_and_Boards U1
 U 1 1 61433A4C
-P 1700 2600
-F 0 "U3" H 1700 3815 50  0000 C CNN
-F 1 "Pico" H 1700 3724 50  0000 C CNN
-F 2 "RPi_Pico:RPi_Pico_SMD_TH" V 1700 2600 50  0001 C CNN
-F 3 "" H 1700 2600 50  0001 C CNN
-	1    1700 2600
-	0    -1   -1   0   
+P 2550 3550
+F 0 "U1" H 2550 4765 50  0000 C CNN
+F 1 "Pico" H 2550 4674 50  0000 C CNN
+F 2 "RPi_Pico:RPi_Pico_SMD_TH" V 2550 3550 50  0001 C CNN
+F 3 "" H 2550 3550 50  0001 C CNN
+	1    2550 3550
+	-1   0    0    1   
 $EndComp
-NoConn ~ 2850 2500
-NoConn ~ 2850 2600
-NoConn ~ 2850 2700
+NoConn ~ 1850 2700
+NoConn ~ 1850 2800
+NoConn ~ 1850 2900
+NoConn ~ 1850 3000
+NoConn ~ 1850 3100
+NoConn ~ 1850 3200
+NoConn ~ 1850 3300
+NoConn ~ 1850 3400
+NoConn ~ 1850 3500
+NoConn ~ 1850 3600
+NoConn ~ 1850 3700
+NoConn ~ 1850 3800
+NoConn ~ 1850 3900
+Wire Wire Line
+	1700 5500 3200 5500
+NoConn ~ 1850 2600
 $EndSCHEMATC
