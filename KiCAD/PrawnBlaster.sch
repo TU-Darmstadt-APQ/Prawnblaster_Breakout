@@ -42,7 +42,6 @@ $EndComp
 $Comp
 L Connector:Conn_Coaxial J11
 U 1 1 5813214B
-
 P 10900 2350
 F 0 "J11" H 10910 2470 50  0000 C CNN
 F 1 "Flag_12" V 11010 2290 50  0000 C CNN
@@ -51,7 +50,6 @@ F 3 "" H 10900 2350 50  0000 C CNN
 F 4 "Molex" H 10900 2350 60  0001 C CNN "MFN"
 F 5 "733910070" H 10900 2350 50  0001 C CNN "PN"
 	1    10900 2350
-
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -151,7 +149,6 @@ Wire Wire Line
 Wire Wire Line
 	10550 2800 10550 3000
 Wire Wire Line
-
 	10300 3050 10300 3250
 Wire Wire Line
 	10050 3300 10050 3500
@@ -281,7 +278,6 @@ Wire Wire Line
 Wire Wire Line
 	8100 3600 8100 3100
 Wire Wire Line
-
 	6100 2950 7200 2950
 $Sheet
 S 3700 2200 1400 1950

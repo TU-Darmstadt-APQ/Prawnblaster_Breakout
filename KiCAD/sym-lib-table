@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name Custom_logos)(type Legacy)(uri ${KIPRJMOD}/libraries/Custom_logos.lib)(options "")(descr ""))
   (lib (name MCU_RaspberryPi_and_Boards)(type Legacy)(uri ${KIPRJMOD}/libraries/MCU_RaspberryPi_and_Boards.lib)(options "")(descr ""))
+  (lib (name PrawnBlaster-rescue)(type Legacy)(uri ${KIPRJMOD}/PrawnBlaster-rescue.lib)(options "")(descr ""))
 )
