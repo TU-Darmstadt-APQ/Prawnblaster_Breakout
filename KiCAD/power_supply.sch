@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
-Title "Prawnblaster Breakout Board, Output Buffers"
+Title "Prawnblaster Breakout Board, Power Supply"
 Date "2020-12-11"
 Rev "v1.0"
 Comp "TU Darmstadt, Institut für Angewandte Physik, AG Birkl"
 Comment1 "Email: patrick.baus@physik.tu-darmstadt.de"
-Comment2 "Design by: Patrick Baus and Lars Pause"
+Comment2 "Design by: Patrick Baus"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -117,10 +117,6 @@ Wire Wire Line
 	1550 3450 1700 3450
 Wire Wire Line
 	1700 3450 1700 3300
-Wire Wire Line
-	1700 3300 1900 3300
-Wire Wire Line
-	1900 3300 1900 3350
 $Comp
 L Device:D D1
 U 1 1 58598927
@@ -175,18 +171,8 @@ F 4 "PSS 254/3G" H 1350 3450 50  0001 C CNN "PN"
 $EndComp
 Wire Wire Line
 	6850 3550 7600 3550
-$Comp
-L power:PWR_FLAG #FLG01
-U 1 1 6002ED13
-P 1900 3250
-F 0 "#FLG01" H 1900 3325 50  0001 C CNN
-F 1 "PWR_FLAG" H 1900 3450 50  0000 C CNN
-F 2 "" H 1900 3250 50  0001 C CNN
-F 3 "~" H 1900 3250 50  0001 C CNN
-	1    1900 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1900 3250 1900 3300
-Connection ~ 1900 3300
+	1900 3300 1900 3350
+Wire Wire Line
+	1700 3300 1900 3300
 $EndSCHEMATC

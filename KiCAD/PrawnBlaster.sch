@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title "Prawnblaster Breakout Board, Output Buffers"
+Title "Prawnblaster Breakout Board"
 Date "2020-12-11"
 Rev "v1.0"
 Comp "TU Darmstadt, Institut für Angewandte Physik, AG Birkl"
-Comment1 "Email: patrick.baus@physik.tu-darmstadt.de"
-Comment2 "Design by: Patrick Baus and Lars Pause"
+Comment1 "Email: lars.pause@physik.tu-darmstadt.de"
+Comment2 "Design by: Lars Pause and Eric Bossert"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -355,14 +355,11 @@ Wire Wire Line
 	9500 2350 10700 2350
 NoConn ~ 1850 4500
 NoConn ~ 1850 4400
-NoConn ~ 1850 4300
 NoConn ~ 1850 4200
 NoConn ~ 1850 4000
 NoConn ~ 3250 2700
-NoConn ~ 3250 2800
 NoConn ~ 3250 3000
 NoConn ~ 3250 3200
-NoConn ~ 3250 3300
 NoConn ~ 3250 3500
 NoConn ~ 3250 3600
 NoConn ~ 3250 3700
@@ -370,7 +367,6 @@ NoConn ~ 3250 3900
 NoConn ~ 3250 4000
 NoConn ~ 3250 4100
 NoConn ~ 3250 4200
-NoConn ~ 3250 4300
 NoConn ~ 3250 4400
 $Comp
 L power:GND #PWR01
@@ -390,7 +386,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 3800 3450 3800
 NoConn ~ 2450 2400
-NoConn ~ 2550 2400
 NoConn ~ 2650 2400
 $Comp
 L Connector:Conn_Coaxial J1
@@ -494,12 +489,10 @@ F 3 "" H 2550 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 NoConn ~ 1850 2700
-NoConn ~ 1850 2800
 NoConn ~ 1850 2900
 NoConn ~ 1850 3000
 NoConn ~ 1850 3100
 NoConn ~ 1850 3200
-NoConn ~ 1850 3300
 NoConn ~ 1850 3400
 NoConn ~ 1850 3500
 NoConn ~ 1850 3600
@@ -507,6 +500,113 @@ NoConn ~ 1850 3700
 NoConn ~ 1850 3800
 NoConn ~ 1850 3900
 Wire Wire Line
-	1700 5500 3200 5500
+	1700 5500 2350 5500
 NoConn ~ 1850 2600
+$Comp
+L power:GND #PWR0101
+U 1 1 614CD6FF
+P 3600 3300
+F 0 "#PWR0101" H 3600 3050 50  0001 C CNN
+F 1 "GND" H 3605 3127 50  0000 C CNN
+F 2 "" H 3600 3300 50  0001 C CNN
+F 3 "" H 3600 3300 50  0001 C CNN
+	1    3600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 614CE178
+P 3900 2800
+F 0 "#PWR0102" H 3900 2550 50  0001 C CNN
+F 1 "GND" H 3905 2627 50  0000 C CNN
+F 2 "" H 3900 2800 50  0001 C CNN
+F 3 "" H 3900 2800 50  0001 C CNN
+	1    3900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 614CEAB3
+P 3400 4300
+F 0 "#PWR0103" H 3400 4050 50  0001 C CNN
+F 1 "GND" H 3405 4127 50  0000 C CNN
+F 2 "" H 3400 4300 50  0001 C CNN
+F 3 "" H 3400 4300 50  0001 C CNN
+	1    3400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 614CED5F
+P 1750 4300
+F 0 "#PWR0104" H 1750 4050 50  0001 C CNN
+F 1 "GND" H 1755 4127 50  0000 C CNN
+F 2 "" H 1750 4300 50  0001 C CNN
+F 3 "" H 1750 4300 50  0001 C CNN
+	1    1750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 614CF038
+P 1750 3300
+F 0 "#PWR0105" H 1750 3050 50  0001 C CNN
+F 1 "GND" H 1755 3127 50  0000 C CNN
+F 2 "" H 1750 3300 50  0001 C CNN
+F 3 "" H 1750 3300 50  0001 C CNN
+	1    1750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 614CF31C
+P 1750 2800
+F 0 "#PWR0106" H 1750 2550 50  0001 C CNN
+F 1 "GND" H 1755 2627 50  0000 C CNN
+F 2 "" H 1750 2800 50  0001 C CNN
+F 3 "" H 1750 2800 50  0001 C CNN
+	1    1750 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2800 1750 2800
+Wire Wire Line
+	1850 3300 1750 3300
+Wire Wire Line
+	1850 4300 1750 4300
+Wire Wire Line
+	3250 4300 3400 4300
+Wire Wire Line
+	3250 3300 3600 3300
+Wire Wire Line
+	3250 2800 3900 2800
+$Comp
+L power:GND #PWR0107
+U 1 1 614D4FC3
+P 2800 2250
+F 0 "#PWR0107" H 2800 2000 50  0001 C CNN
+F 1 "GND" H 2805 2077 50  0000 C CNN
+F 2 "" H 2800 2250 50  0001 C CNN
+F 3 "" H 2800 2250 50  0001 C CNN
+	1    2800 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2400 2550 2250
+Wire Wire Line
+	2550 2250 2800 2250
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 614E9AFB
+P 2350 5500
+F 0 "#FLG0101" H 2350 5575 50  0001 C CNN
+F 1 "PWR_FLAG" H 2350 5673 50  0000 C CNN
+F 2 "" H 2350 5500 50  0001 C CNN
+F 3 "~" H 2350 5500 50  0001 C CNN
+	1    2350 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 2350 5500
+Wire Wire Line
+	2350 5500 3200 5500
 $EndSCHEMATC

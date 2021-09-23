@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title "Prawnblaster Breakout Board, Output Buffers"
+Title "Prawnblaster Breakout Board, Reverse Polarity Protection"
 Date "2020-12-11"
 Rev "v1.0"
 Comp "TU Darmstadt, Institut für Angewandte Physik, AG Birkl"
 Comment1 "Copyright (©) 2016, Patrick Baus <patrick.baus@physik.tu-darmstadt.de>"
-Comment2 "Design by: Patrick Baus and Lars Pause"
+Comment2 "Design by: Patrick Baus"
 Comment3 ""
 Comment4 ""
 $EndDescr
