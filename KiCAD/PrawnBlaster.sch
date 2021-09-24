@@ -19,7 +19,7 @@ U 1 1 581320B7
 P 10300 2850
 F 0 "J3" H 10310 2970 50  0000 C CNN
 F 1 "Flag_14" V 10410 2790 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 10300 2850 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 10300 2850 50  0001 C CNN
 F 3 "" H 10300 2850 50  0000 C CNN
 F 4 "Molex" H 10300 2850 60  0001 C CNN "MFN"
 F 5 "733910070" H 10300 2850 50  0001 C CNN "PN"
@@ -32,7 +32,7 @@ U 1 1 58132105
 P 10550 2600
 F 0 "J4" H 10560 2720 50  0000 C CNN
 F 1 "Flag_13" V 10660 2540 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 10550 2600 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 10550 2600 50  0001 C CNN
 F 3 "" H 10550 2600 50  0000 C CNN
 F 4 "Molex" H 10550 2600 60  0001 C CNN "MFN"
 F 5 "733910070" H 10550 2600 50  0001 C CNN "PN"
@@ -45,7 +45,7 @@ U 1 1 5813214B
 P 10900 2350
 F 0 "J5" H 10910 2470 50  0000 C CNN
 F 1 "Flag_12" V 11010 2290 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 10900 2350 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 10900 2350 50  0001 C CNN
 F 3 "" H 10900 2350 50  0000 C CNN
 F 4 "Molex" H 10900 2350 60  0001 C CNN "MFN"
 F 5 "733910070" H 10900 2350 50  0001 C CNN "PN"
@@ -146,50 +146,6 @@ Wire Notes Line
 Text Notes 8650 2100 0    60   ~ 0
 Use at least 250 mW resistors!\n(70 mA @ 50 Ω)
 $Comp
-L Mechanical:MountingHole H2
-U 1 1 614A335B
-P 950 5750
-F 0 "H2" H 1050 5795 50  0000 L CNN
-F 1 "MountingHole" H 1050 5706 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 950 5750 50  0001 C CNN
-F 3 "~" H 950 5750 50  0001 C CNN
-	1    950  5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5FEDBA18
-P 950 6050
-F 0 "H3" H 1050 6095 50  0000 L CNN
-F 1 "MountingHole" H 1050 6006 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 950 6050 50  0001 C CNN
-F 3 "~" H 950 6050 50  0001 C CNN
-	1    950  6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 614A335D
-P 950 6350
-F 0 "H6" H 1050 6395 50  0000 L CNN
-F 1 "MountingHole" H 1050 6306 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 950 6350 50  0001 C CNN
-F 3 "~" H 950 6350 50  0001 C CNN
-	1    950  6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H8
-U 1 1 614A335E
-P 950 6650
-F 0 "H8" H 1050 6695 50  0000 L CNN
-F 1 "MountingHole" H 1050 6606 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 950 6650 50  0001 C CNN
-F 3 "~" H 950 6650 50  0001 C CNN
-	1    950  6650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Graphic:Logo_Open_Hardware_Small LOGO2
 U 1 1 60080B9C
 P 10800 6900
@@ -265,45 +221,45 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H7
 U 1 1 5FEDD2EF
-P 950 6650
-F 0 "H7" H 1050 6695 50  0000 L CNN
-F 1 "MountingHole" H 1050 6606 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 950 6650 50  0001 C CNN
-F 3 "~" H 950 6650 50  0001 C CNN
-	1    950  6650
+P 850 6700
+F 0 "H7" H 950 6745 50  0000 L CNN
+F 1 "MountingHole" H 950 6656 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 850 6700 50  0001 C CNN
+F 3 "~" H 850 6700 50  0001 C CNN
+	1    850  6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 5FEDC6AA
-P 950 6350
-F 0 "H5" H 1050 6395 50  0000 L CNN
-F 1 "MountingHole" H 1050 6306 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 950 6350 50  0001 C CNN
-F 3 "~" H 950 6350 50  0001 C CNN
-	1    950  6350
+P 850 6400
+F 0 "H5" H 950 6445 50  0000 L CNN
+F 1 "MountingHole" H 950 6356 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 850 6400 50  0001 C CNN
+F 3 "~" H 850 6400 50  0001 C CNN
+	1    850  6400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 614A335C
-P 950 6050
-F 0 "H4" H 1050 6095 50  0000 L CNN
-F 1 "MountingHole" H 1050 6006 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 950 6050 50  0001 C CNN
-F 3 "~" H 950 6050 50  0001 C CNN
-	1    950  6050
+P 850 6100
+F 0 "H4" H 950 6145 50  0000 L CNN
+F 1 "MountingHole" H 950 6056 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 850 6100 50  0001 C CNN
+F 3 "~" H 850 6100 50  0001 C CNN
+	1    850  6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5FEDAB5A
-P 950 5750
-F 0 "H1" H 1050 5795 50  0000 L CNN
-F 1 "MountingHole" H 1050 5706 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 950 5750 50  0001 C CNN
-F 3 "~" H 950 5750 50  0001 C CNN
-	1    950  5750
+P 850 5800
+F 0 "H1" H 950 5845 50  0000 L CNN
+F 1 "MountingHole" H 950 5756 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 850 5800 50  0001 C CNN
+F 3 "~" H 850 5800 50  0001 C CNN
+	1    850  5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -327,7 +283,7 @@ U 1 1 6149FB08
 P 10050 3100
 F 0 "J2" H 10060 3220 50  0000 C CNN
 F 1 "Flag_12" V 10160 3040 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 10050 3100 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 10050 3100 50  0001 C CNN
 F 3 "" H 10050 3100 50  0000 C CNN
 F 4 "Molex" H 10050 3100 60  0001 C CNN "MFN"
 F 5 "733910070" H 10050 3100 50  0001 C CNN "PN"
@@ -395,7 +351,7 @@ AR Path="/614769F9" Ref="J1"  Part="1"
 AR Path="/61464E7A/614769F9" Ref="J?"  Part="1" 
 F 0 "J1" H 2500 6475 50  0000 L CNN
 F 1 "Conn_Coaxial" H 2500 6384 50  0000 L CNN
-F 2 "" H 2400 6500 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 2400 6500 50  0001 C CNN
 F 3 " ~" H 2400 6500 50  0001 C CNN
 	1    2400 6500
 	-1   0    0    1   
