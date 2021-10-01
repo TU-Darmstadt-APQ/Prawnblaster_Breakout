@@ -447,7 +447,6 @@ $EndComp
 NoConn ~ 1850 2700
 NoConn ~ 1850 2900
 NoConn ~ 1850 3000
-NoConn ~ 1850 3100
 NoConn ~ 1850 3200
 NoConn ~ 1850 3400
 NoConn ~ 1850 3500
@@ -565,4 +564,79 @@ $EndComp
 Connection ~ 2350 5500
 Wire Wire Line
 	2350 5500 3200 5500
+$Comp
+L Connector:Conn_Coaxial J7
+U 1 1 6158A65F
+P 4800 6500
+AR Path="/6158A65F" Ref="J7"  Part="1" 
+AR Path="/61464E7A/6158A65F" Ref="J?"  Part="1" 
+F 0 "J7" H 4900 6475 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4900 6384 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 4800 6500 50  0001 C CNN
+F 3 " ~" H 4800 6500 50  0001 C CNN
+	1    4800 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Logic_LevelTranslator:SN74LV1T34DBV U5
+U 1 1 6158A665
+P 5600 6500
+AR Path="/6158A665" Ref="U5"  Part="1" 
+AR Path="/61464E7A/6158A665" Ref="U?"  Part="1" 
+F 0 "U5" H 5944 6546 50  0000 L CNN
+F 1 "SN74LV1T34DBV" H 5944 6455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6250 6250 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf" H 5200 6300 50  0001 C CNN
+	1    5600 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 6158A66B
+P 4800 6100
+AR Path="/6158A66B" Ref="#PWR022"  Part="1" 
+AR Path="/61464E7A/6158A66B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR022" H 4800 5850 50  0001 C CNN
+F 1 "GND" H 4805 5927 50  0000 C CNN
+F 2 "" H 4800 6100 50  0001 C CNN
+F 3 "" H 4800 6100 50  0001 C CNN
+	1    4800 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 6158A671
+P 5600 7000
+AR Path="/6158A671" Ref="#PWR023"  Part="1" 
+AR Path="/61464E7A/6158A671" Ref="#PWR?"  Part="1" 
+F 0 "#PWR023" H 5600 6750 50  0001 C CNN
+F 1 "GND" H 5605 6827 50  0000 C CNN
+F 2 "" H 5600 7000 50  0001 C CNN
+F 3 "" H 5600 7000 50  0001 C CNN
+	1    5600 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 6300 4800 6100
+Wire Wire Line
+	5600 6800 5600 7000
+Wire Wire Line
+	5000 6500 5300 6500
+Wire Wire Line
+	5600 5500 5600 6200
+Connection ~ 3200 5500
+Wire Wire Line
+	1850 3100 1400 3100
+Wire Wire Line
+	1400 3100 1400 4950
+Wire Wire Line
+	1400 4950 5900 4950
+Wire Wire Line
+	5900 4950 5900 6500
+Wire Wire Line
+	3200 5500 5600 5500
+Text Notes 4600 6700 0    50   ~ 0
+Clock input
+Text Notes 2100 6750 0    50   ~ 0
+External trigger input
 $EndSCHEMATC
