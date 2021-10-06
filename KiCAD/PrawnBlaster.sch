@@ -70,6 +70,8 @@ F 0 "U2" H 7444 4046 50  0000 L CNN
 F 1 "SN74LV1T34DBV" H 7444 3955 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7750 3750 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf" H 6700 3800 50  0001 C CNN
+F 4 "Texas Instruments" H 7100 4000 50  0001 C CNN "MFN"
+F 5 "SN74LV1T34DBVR" H 7100 4000 50  0001 C CNN "PN"
 	1    7100 4000
 	0    -1   -1   0   
 $EndComp
@@ -83,6 +85,8 @@ F 0 "U1" H 2550 4765 50  0000 C CNN
 F 1 "Pico" H 2550 4674 50  0000 C CNN
 F 2 "Custom_footprints_project:RPi_Pico_SMD_TH" V 2550 3550 50  0001 C CNN
 F 3 "" H 2550 3550 50  0001 C CNN
+F 4 "Seeed Studio" H 2550 3550 50  0001 C CNN "MFN"
+F 5 "102110537" H 2550 3550 50  0001 C CNN "PN"
 	1    2550 3550
 	-1   0    0    1   
 $EndComp
@@ -203,6 +207,8 @@ F 0 "U5" H 7444 5346 50  0000 L CNN
 F 1 "SN74LV1T34DBV" H 7444 5255 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7750 5050 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf" H 6700 5100 50  0001 C CNN
+F 4 "Texas Instruments" H 7100 5300 50  0001 C CNN "MFN"
+F 5 "SN74LV1T34DBVR" H 7100 5300 50  0001 C CNN "PN"
 	1    7100 5300
 	0    -1   -1   0   
 $EndComp
@@ -218,6 +224,8 @@ F 0 "J8" H 1108 4581 50  0000 C CNN
 F 1 "Conn_01x20_Male" H 1108 4490 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 1000 3500 50  0001 C CNN
 F 3 "~" H 1000 3500 50  0001 C CNN
+F 4 "Samtec" H 1000 3500 50  0001 C CNN "MFN"
+F 5 "TSW-120-07-G-S" H 1000 3500 50  0001 C CNN "PN"
 	1    1000 3500
 	1    0    0    -1  
 $EndComp
@@ -229,6 +237,8 @@ F 0 "J10" H 4272 3482 50  0000 R CNN
 F 1 "Conn_01x20_Male" H 4272 3573 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 4300 3600 50  0001 C CNN
 F 3 "~" H 4300 3600 50  0001 C CNN
+F 4 "Samtec" H 4300 3600 50  0001 C CNN "MFN"
+F 5 "TSW-120-07-G-S" H 4300 3600 50  0001 C CNN "PN"
 	1    4300 3600
 	-1   0    0    1   
 $EndComp
@@ -327,6 +337,8 @@ F 0 "J9" V 2612 1944 50  0000 L CNN
 F 1 "Conn_01x03_Male" V 2703 1944 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2550 1800 50  0001 C CNN
 F 3 "~" H 2550 1800 50  0001 C CNN
+F 4 "Samtec" H 2550 1800 50  0001 C CNN "MFN"
+F 5 "TSW-103-07-G-S" H 2550 1800 50  0001 C CNN "PN"
 	1    2550 1800
 	0    1    1    0   
 $EndComp
@@ -401,6 +413,8 @@ F 0 "R4" V 8330 2100 50  0000 C CNN
 F 1 "49.9" V 8250 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 8180 2100 50  0001 C CNN
 F 3 "" H 8250 2100 50  0000 C CNN
+F 4 "Panasonic" H 8250 2100 50  0001 C CNN "MFN"
+F 5 "ERJ8ENF49R9V" H 8250 2100 50  0001 C CNN "PN"
 	1    8250 2100
 	0    -1   -1   0   
 $EndComp
@@ -602,6 +616,8 @@ F 0 "J1" H 9200 2217 50  0000 C CNN
 F 1 "Conn_02x06_Odd_Even" H 9200 2126 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 9150 1800 50  0001 C CNN
 F 3 "~" H 9150 1800 50  0001 C CNN
+F 4 "Samtec" H 9150 1800 50  0001 C CNN "MFN"
+F 5 "SSW-106-02-G-D-RA" H 9150 1800 50  0001 C CNN "PN"
 	1    9150 1800
 	1    0    0    -1  
 $EndComp

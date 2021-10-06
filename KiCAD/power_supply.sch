@@ -166,6 +166,8 @@ F 0 "J6" H 668 7517 50  0000 C CNN
 F 1 "C64AC" H 668 7426 50  0000 C CNN
 F 2 "Custom_footprints_project:Socket_DIN41612-CaseC1-AC-Male-64Pin-2rows" H 750 4100 50  0001 C CNN
 F 3 " ~" H 750 4100 50  0001 C CNN
+F 4 "Erni" H 750 4050 50  0001 C CNN "MFN"
+F 5 "364914" H 750 4050 50  0001 C CNN "PN"
 	1    750  4050
 	-1   0    0    -1  
 $EndComp
