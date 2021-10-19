@@ -1,0 +1,786 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 12237 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4500 2400 4400 2400
+Wire Wire Line
+	4300 2300 4400 2400
+Wire Wire Line
+	4900 2400 5400 2400
+Wire Wire Line
+	5400 2300 5200 2300
+Wire Wire Line
+	4800 2300 4400 2300
+Wire Wire Line
+	4300 2400 4400 2300
+Wire Wire Line
+	6600 2400 7100 2400
+Wire Wire Line
+	7500 2400 7800 2400
+Wire Wire Line
+	7800 2300 7200 2300
+Wire Wire Line
+	6800 2300 6600 2300
+Wire Wire Line
+	5400 2000 5300 2000
+Wire Wire Line
+	5300 2000 5100 2000
+Wire Wire Line
+	5400 2100 5300 2100
+Wire Wire Line
+	5300 2100 5300 2000
+Connection ~ 5300 2000
+Text Label 5100 2000 0    70   ~ 0
+VDD1
+Wire Wire Line
+	8900 4700 8600 4700
+Text Label 8600 4700 0    70   ~ 0
+VDD1
+Wire Wire Line
+	5400 1900 4700 1900
+Wire Wire Line
+	4800 2000 4700 2000
+Wire Wire Line
+	4700 2000 4700 1900
+Wire Wire Line
+	4800 1700 4700 1700
+Wire Wire Line
+	4700 1700 4700 1900
+Connection ~ 4700 1900
+Connection ~ 4700 2000
+Text Label 5400 1900 0    10   ~ 0
+GND
+Wire Wire Line
+	4300 2600 4500 2600
+Wire Wire Line
+	4500 2600 4500 2700
+Text Label 4300 2600 0    10   ~ 0
+GND
+Wire Wire Line
+	5400 2500 5300 2500
+Wire Wire Line
+	5300 2500 5300 2700
+Text Label 5400 2500 0    10   ~ 0
+GND
+Wire Wire Line
+	5400 4000 5100 4000
+Wire Wire Line
+	5100 4000 4800 4000
+Wire Wire Line
+	4800 4000 4800 4900
+Wire Wire Line
+	4800 4900 4800 5000
+Wire Wire Line
+	5100 4800 5100 4900
+Wire Wire Line
+	5100 4900 4800 4900
+Wire Wire Line
+	5400 4600 5300 4600
+Wire Wire Line
+	5300 4600 5300 4900
+Wire Wire Line
+	5300 4900 5100 4900
+Connection ~ 5100 4000
+Connection ~ 4800 4000
+Connection ~ 4800 4900
+Connection ~ 5100 4900
+Text Label 5400 4000 0    10   ~ 0
+GND
+Wire Wire Line
+	8600 4500 8700 4500
+Text Label 8600 4500 0    10   ~ 0
+GND
+Wire Wire Line
+	6600 2500 6700 2500
+Wire Wire Line
+	6700 2500 6700 2700
+Text Label 6600 2500 0    10   ~ 0
+AGND
+Wire Wire Line
+	7800 2600 7700 2600
+Wire Wire Line
+	7700 2600 7700 2700
+Text Label 7800 2600 0    10   ~ 0
+AGND
+Wire Wire Line
+	6600 1900 7300 1900
+Wire Wire Line
+	7300 1900 7300 2000
+Wire Wire Line
+	7200 2000 7300 2000
+Wire Wire Line
+	7200 1700 7300 1700
+Wire Wire Line
+	7300 1700 7300 1900
+Connection ~ 7300 2000
+Connection ~ 7300 1900
+Text Label 6600 1900 0    10   ~ 0
+AGND
+Wire Wire Line
+	6600 4000 6900 4000
+Wire Wire Line
+	6900 4000 7200 4000
+Wire Wire Line
+	7200 4000 7200 4900
+Wire Wire Line
+	7200 4900 7200 5000
+Wire Wire Line
+	6900 4800 6900 4900
+Wire Wire Line
+	6900 4900 7200 4900
+Wire Wire Line
+	6600 4600 6700 4600
+Wire Wire Line
+	6700 4600 6700 4900
+Wire Wire Line
+	6700 4900 6900 4900
+Connection ~ 6900 4000
+Connection ~ 7200 4000
+Connection ~ 7200 4900
+Connection ~ 6900 4900
+Text Label 6600 4000 0    10   ~ 0
+AGND
+Wire Wire Line
+	8600 4900 8700 4900
+Text Label 8600 4900 0    10   ~ 0
+AGND
+Wire Wire Line
+	9700 3600 9800 3600
+Wire Wire Line
+	9800 3600 9800 3700
+Text Label 9700 3600 0    10   ~ 0
+AGND
+Wire Wire Line
+	6600 2000 6900 2000
+Wire Wire Line
+	6600 2200 6900 2200
+Wire Wire Line
+	6900 2200 6900 2000
+Connection ~ 6900 2000
+Text Label 6700 2000 0    70   ~ 0
+VDD2
+Wire Wire Line
+	8600 5100 8900 5100
+Text Label 8600 5100 0    70   ~ 0
+VDD2
+Wire Wire Line
+	5400 4500 5300 4500
+Wire Wire Line
+	5300 4500 5100 4500
+Wire Wire Line
+	5400 4400 5300 4400
+Wire Wire Line
+	5300 4400 5300 4500
+Wire Wire Line
+	5100 4500 5100 4100
+Wire Wire Line
+	5400 3900 5300 3900
+Wire Wire Line
+	5300 3900 5300 3600
+Wire Wire Line
+	5300 3600 5100 3600
+Wire Wire Line
+	5100 3600 4800 3600
+Wire Wire Line
+	4800 3600 4800 3700
+Wire Wire Line
+	5100 3700 5100 3600
+Wire Wire Line
+	5100 4100 5300 4100
+Wire Wire Line
+	5300 4100 5300 3900
+Wire Wire Line
+	4800 3600 3300 3600
+Wire Wire Line
+	3300 3600 3300 1500
+Wire Wire Line
+	5100 1700 5300 1700
+Wire Wire Line
+	5300 1700 5300 1800
+Wire Wire Line
+	5300 1800 5400 1800
+Wire Wire Line
+	5300 1700 5300 1500
+Wire Wire Line
+	4300 2200 4500 2200
+Wire Wire Line
+	4500 2200 4500 1500
+Wire Wire Line
+	5300 1500 4500 1500
+Wire Wire Line
+	3300 1500 4500 1500
+Wire Wire Line
+	3300 1400 3300 1500
+Connection ~ 5300 4500
+Connection ~ 5100 4500
+Connection ~ 5100 3600
+Connection ~ 5300 3900
+Connection ~ 4800 3600
+Connection ~ 5300 1700
+Connection ~ 4500 1500
+Connection ~ 3300 1500
+Wire Wire Line
+	6600 3900 6700 3900
+Wire Wire Line
+	6700 3900 6700 3600
+Wire Wire Line
+	6700 3600 6900 3600
+Wire Wire Line
+	6900 3600 7200 3600
+Wire Wire Line
+	7200 3600 7200 3700
+Wire Wire Line
+	6900 3700 6900 3600
+Wire Wire Line
+	6600 4200 6700 4200
+Wire Wire Line
+	6700 4200 6700 3900
+Wire Wire Line
+	7200 3600 8800 3600
+Wire Wire Line
+	8800 3600 8800 1500
+Wire Wire Line
+	6600 1800 6700 1800
+Wire Wire Line
+	6700 1800 6700 1700
+Wire Wire Line
+	6700 1700 6900 1700
+Wire Wire Line
+	6700 1700 6700 1500
+Wire Wire Line
+	6700 1500 7700 1500
+Wire Wire Line
+	7700 1500 7700 2200
+Wire Wire Line
+	7700 2200 7800 2200
+Wire Wire Line
+	8800 1500 7700 1500
+Wire Wire Line
+	8800 1400 8800 1500
+Wire Wire Line
+	6600 4500 6700 4500
+Wire Wire Line
+	6700 4500 6900 4500
+Wire Wire Line
+	6700 4500 6700 4200
+Wire Wire Line
+	8800 3600 8900 3600
+Connection ~ 6900 3600
+Connection ~ 6700 3900
+Connection ~ 7200 3600
+Connection ~ 6700 1700
+Connection ~ 7700 1500
+Connection ~ 8800 1500
+Connection ~ 6700 4500
+Connection ~ 6700 4200
+Connection ~ 8800 3600
+Wire Wire Line
+	5400 2200 5200 2200
+Text Label 5200 2200 0    70   ~ 0
+SPU
+Wire Wire Line
+	8300 4600 8100 4600
+Text Label 8100 4600 0    70   ~ 0
+SPU
+Wire Wire Line
+	6600 2100 6800 2100
+Text Label 6700 2100 0    70   ~ 0
+SPD
+Wire Wire Line
+	8100 5000 8300 5000
+Text Label 8100 5000 0    70   ~ 0
+SPD
+Wire Wire Line
+	9200 3600 9300 3600
+$Comp
+L Adafruit_USB_Isolator-eagle-import:FRAME_A4 #FRAME1
+U 1 1 73DA64CA
+P 900 7100
+F 0 "#FRAME1" H 900 7100 50  0001 C CNN
+F 1 "FRAME_A4" H 900 7100 50  0001 C CNN
+F 2 "" H 900 7100 50  0001 C CNN
+F 3 "" H 900 7100 50  0001 C CNN
+	1    900  7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:FRAME_A4 #FRAME1
+U 2 1 73DA64C6
+P 6200 7000
+F 0 "#FRAME1" H 6200 7000 50  0001 C CNN
+F 1 "FRAME_A4" H 6200 7000 50  0001 C CNN
+F 2 "" H 6200 7000 50  0001 C CNN
+F 3 "" H 6200 7000 50  0001 C CNN
+	2    6200 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:ADUM4160 U1
+U 1 1 AFC1BB24
+P 6000 2100
+F 0 "U1" H 5500 2800 42  0000 L BNN
+F 1 "ADuM4160" H 5500 1500 42  0000 L BNN
+F 2 "Adafruit USB Isolator:SOIC16WIDE" H 6000 2100 50  0001 C CNN
+F 3 "" H 6000 2100 50  0001 C CNN
+	1    6000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:ADUM5000 U2
+U 1 1 840C0535
+P 6000 4200
+F 0 "U2" H 5500 4900 42  0000 L BNN
+F 1 "ADuM5000" H 5500 3600 42  0000 L BNN
+F 2 "Adafruit USB Isolator:SOIC16WIDE" H 6000 4200 50  0001 C CNN
+F 3 "" H 6000 4200 50  0001 C CNN
+	1    6000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:CAP_CERAMIC0805-NOOUTLINE C1
+U 1 1 F1C90C04
+P 4900 1700
+F 0 "C1" V 4810 1749 50  0000 C CNN
+F 1 "0.1uF" V 4990 1749 50  0000 C CNN
+F 2 "Adafruit USB Isolator:0805-NO" H 4900 1700 50  0001 C CNN
+F 3 "" H 4900 1700 50  0001 C CNN
+	1    4900 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:CAP_CERAMIC0805-NOOUTLINE C2
+U 1 1 B94C3227
+P 4900 2000
+F 0 "C2" V 4810 2049 50  0000 C CNN
+F 1 "0.1uF" V 4990 2049 50  0000 C CNN
+F 2 "Adafruit USB Isolator:0805-NO" H 4900 2000 50  0001 C CNN
+F 3 "" H 4900 2000 50  0001 C CNN
+	1    4900 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:CAP_CERAMIC0805-NOOUTLINE C3
+U 1 1 DAA3AADF
+P 7000 1700
+F 0 "C3" V 6910 1749 50  0000 C CNN
+F 1 "0.1uF" V 7090 1749 50  0000 C CNN
+F 2 "Adafruit USB Isolator:0805-NO" H 7000 1700 50  0001 C CNN
+F 3 "" H 7000 1700 50  0001 C CNN
+	1    7000 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:CAP_CERAMIC0805-NOOUTLINE C4
+U 1 1 F80B1965
+P 7000 2000
+F 0 "C4" V 6910 2049 50  0000 C CNN
+F 1 "0.1uF" V 7090 2049 50  0000 C CNN
+F 2 "Adafruit USB Isolator:0805-NO" H 7000 2000 50  0001 C CNN
+F 3 "" H 7000 2000 50  0001 C CNN
+	1    7000 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:RESISTOR0805_NOOUTLINE R1
+U 1 1 8D558B0B
+P 5000 2300
+F 0 "R1" H 5000 2400 50  0000 C CNN
+F 1 "24" H 5000 2300 40  0000 C CNB
+F 2 "Adafruit USB Isolator:0805-NO" H 5000 2300 50  0001 C CNN
+F 3 "" H 5000 2300 50  0001 C CNN
+	1    5000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:RESISTOR0805_NOOUTLINE R2
+U 1 1 B553B99E
+P 4700 2400
+F 0 "R2" H 4700 2500 50  0000 C CNN
+F 1 "24" H 4700 2400 40  0000 C CNB
+F 2 "Adafruit USB Isolator:0805-NO" H 4700 2400 50  0001 C CNN
+F 3 "" H 4700 2400 50  0001 C CNN
+	1    4700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:RESISTOR0805_NOOUTLINE R3
+U 1 1 12ED7E55
+P 7000 2300
+F 0 "R3" H 7000 2400 50  0000 C CNN
+F 1 "24" H 7000 2300 40  0000 C CNB
+F 2 "Adafruit USB Isolator:0805-NO" H 7000 2300 50  0001 C CNN
+F 3 "" H 7000 2300 50  0001 C CNN
+	1    7000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:RESISTOR_0805MP R4
+U 1 1 AC337D8C
+P 7300 2400
+F 0 "R4" H 7300 2500 50  0000 C CNN
+F 1 "24" H 7300 2400 40  0000 C CNB
+F 2 "Adafruit USB Isolator:_0805MP" H 7300 2400 50  0001 C CNN
+F 3 "" H 7300 2400 50  0001 C CNN
+	1    7300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:USB_TYPEAPTHFML X2
+U 1 1 5BBF8424
+P 8200 2400
+F 0 "X2" H 7800 2740 42  0000 L BNN
+F 1 "05241" H 7800 2000 42  0000 L BNN
+F 2 "Adafruit USB Isolator:USB_HOST-PTH" H 8200 2400 50  0001 C CNN
+F 3 "" H 8200 2400 50  0001 C CNN
+	1    8200 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:GND #U$01
+U 1 1 BABD3B23
+P 4700 2100
+F 0 "#U$01" H 4700 2100 50  0001 C CNN
+F 1 "GND" H 4640 2000 42  0000 L BNN
+F 2 "" H 4700 2100 50  0001 C CNN
+F 3 "" H 4700 2100 50  0001 C CNN
+	1    4700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:GND #U$02
+U 1 1 A8B04D1A
+P 4500 2800
+F 0 "#U$02" H 4500 2800 50  0001 C CNN
+F 1 "GND" H 4440 2700 42  0000 L BNN
+F 2 "" H 4500 2800 50  0001 C CNN
+F 3 "" H 4500 2800 50  0001 C CNN
+	1    4500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:AGND #U$03
+U 1 1 54307519
+P 6700 2800
+F 0 "#U$03" H 6700 2800 50  0001 C CNN
+F 1 "AGND" H 6640 2700 42  0000 L BNN
+F 2 "" H 6700 2800 50  0001 C CNN
+F 3 "" H 6700 2800 50  0001 C CNN
+	1    6700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:GND #U$04
+U 1 1 84E86E02
+P 5300 2800
+F 0 "#U$04" H 5300 2800 50  0001 C CNN
+F 1 "GND" H 5240 2700 42  0000 L BNN
+F 2 "" H 5300 2800 50  0001 C CNN
+F 3 "" H 5300 2800 50  0001 C CNN
+	1    5300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:AGND #U$05
+U 1 1 6A689A17
+P 7700 2800
+F 0 "#U$05" H 7700 2800 50  0001 C CNN
+F 1 "AGND" H 7640 2700 42  0000 L BNN
+F 2 "" H 7700 2800 50  0001 C CNN
+F 3 "" H 7700 2800 50  0001 C CNN
+	1    7700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:AGND #U$06
+U 1 1 371C5F19
+P 7300 2100
+F 0 "#U$06" H 7300 2100 50  0001 C CNN
+F 1 "AGND" H 7240 2000 42  0000 L BNN
+F 2 "" H 7300 2100 50  0001 C CNN
+F 3 "" H 7300 2100 50  0001 C CNN
+	1    7300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:FIDUCIAL"" FID1
+U 1 1 DB63CB8D
+P 10800 5300
+F 0 "FID1" H 10800 5300 50  0001 C CNN
+F 1 "FIDUCIAL\"\"" H 10800 5300 50  0001 C CNN
+F 2 "Adafruit USB Isolator:FIDUCIAL_1MM" H 10800 5300 50  0001 C CNN
+F 3 "" H 10800 5300 50  0001 C CNN
+	1    10800 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:FIDUCIAL"" FID2
+U 1 1 E067070F
+P 10700 5300
+F 0 "FID2" H 10700 5300 50  0001 C CNN
+F 1 "FIDUCIAL\"\"" H 10700 5300 50  0001 C CNN
+F 2 "Adafruit USB Isolator:FIDUCIAL_1MM" H 10700 5300 50  0001 C CNN
+F 3 "" H 10700 5300 50  0001 C CNN
+	1    10700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:FIDUCIAL"" FID3
+U 1 1 4801E4DA
+P 10600 5300
+F 0 "FID3" H 10600 5300 50  0001 C CNN
+F 1 "FIDUCIAL\"\"" H 10600 5300 50  0001 C CNN
+F 2 "Adafruit USB Isolator:FIDUCIAL_1MM" H 10600 5300 50  0001 C CNN
+F 3 "" H 10600 5300 50  0001 C CNN
+	1    10600 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:MOUNTINGHOLE2.5_THICK U$7
+U 1 1 BE1960E8
+P 10800 5500
+F 0 "U$7" H 10800 5500 50  0001 C CNN
+F 1 "MOUNTINGHOLE2.5_THICK" H 10800 5500 50  0001 C CNN
+F 2 "Adafruit USB Isolator:MOUNTINGHOLE_2.5_PLATED_THICK" H 10800 5500 50  0001 C CNN
+F 3 "" H 10800 5500 50  0001 C CNN
+	1    10800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:MOUNTINGHOLE2.5_THICK U$8
+U 1 1 E90442EA
+P 10600 5500
+F 0 "U$8" H 10600 5500 50  0001 C CNN
+F 1 "MOUNTINGHOLE2.5_THICK" H 10600 5500 50  0001 C CNN
+F 2 "Adafruit USB Isolator:MOUNTINGHOLE_2.5_PLATED_THICK" H 10600 5500 50  0001 C CNN
+F 3 "" H 10600 5500 50  0001 C CNN
+	1    10600 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:MOUNTINGHOLE2.5_THICK U$9
+U 1 1 9B8BA149
+P 10400 5500
+F 0 "U$9" H 10400 5500 50  0001 C CNN
+F 1 "MOUNTINGHOLE2.5_THICK" H 10400 5500 50  0001 C CNN
+F 2 "Adafruit USB Isolator:MOUNTINGHOLE_2.5_PLATED_THICK" H 10400 5500 50  0001 C CNN
+F 3 "" H 10400 5500 50  0001 C CNN
+	1    10400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:MOUNTINGHOLE2.5_THICK U$10
+U 1 1 9B2F7804
+P 10200 5500
+F 0 "U$10" H 10200 5500 50  0001 C CNN
+F 1 "MOUNTINGHOLE2.5_THICK" H 10200 5500 50  0001 C CNN
+F 2 "Adafruit USB Isolator:MOUNTINGHOLE_2.5_PLATED_THICK" H 10200 5500 50  0001 C CNN
+F 3 "" H 10200 5500 50  0001 C CNN
+	1    10200 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:CAP_CERAMIC0805-NOOUTLINE C5
+U 1 1 295533C0
+P 6900 3900
+F 0 "C5" V 6810 3949 50  0000 C CNN
+F 1 "0.1uF" V 6990 3949 50  0000 C CNN
+F 2 "Adafruit USB Isolator:0805-NO" H 6900 3900 50  0001 C CNN
+F 3 "" H 6900 3900 50  0001 C CNN
+	1    6900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:CAP_CERAMIC0805-NOOUTLINE C6
+U 1 1 0EB95A72
+P 7200 3900
+F 0 "C6" V 7110 3949 50  0000 C CNN
+F 1 "10uF" V 7290 3949 50  0000 C CNN
+F 2 "Adafruit USB Isolator:0805-NO" H 7200 3900 50  0001 C CNN
+F 3 "" H 7200 3900 50  0001 C CNN
+	1    7200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:CAP_CERAMIC0805-NOOUTLINE C7
+U 1 1 69A561B9
+P 6900 4600
+F 0 "C7" V 6810 4649 50  0000 C CNN
+F 1 "0.1uF" V 6990 4649 50  0000 C CNN
+F 2 "Adafruit USB Isolator:0805-NO" H 6900 4600 50  0001 C CNN
+F 3 "" H 6900 4600 50  0001 C CNN
+	1    6900 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:AGND #U$011
+U 1 1 283E49E7
+P 7200 5100
+F 0 "#U$011" H 7200 5100 50  0001 C CNN
+F 1 "AGND" H 7140 5000 42  0000 L BNN
+F 2 "" H 7200 5100 50  0001 C CNN
+F 3 "" H 7200 5100 50  0001 C CNN
+	1    7200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:CAP_CERAMIC0805-NOOUTLINE C8
+U 1 1 B2598F92
+P 5100 3900
+F 0 "C8" V 5010 3949 50  0000 C CNN
+F 1 "0.1uF" V 5190 3949 50  0000 C CNN
+F 2 "Adafruit USB Isolator:0805-NO" H 5100 3900 50  0001 C CNN
+F 3 "" H 5100 3900 50  0001 C CNN
+	1    5100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:CAP_CERAMIC0805-NOOUTLINE C9
+U 1 1 D736F15A
+P 4800 3900
+F 0 "C9" V 4710 3949 50  0000 C CNN
+F 1 "10uF" V 4890 3949 50  0000 C CNN
+F 2 "Adafruit USB Isolator:0805-NO" H 4800 3900 50  0001 C CNN
+F 3 "" H 4800 3900 50  0001 C CNN
+	1    4800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:CAP_CERAMIC0805-NOOUTLINE C10
+U 1 1 6FDD5949
+P 5100 4600
+F 0 "C10" V 5010 4649 50  0000 C CNN
+F 1 "0.1uF" V 5190 4649 50  0000 C CNN
+F 2 "Adafruit USB Isolator:0805-NO" H 5100 4600 50  0001 C CNN
+F 3 "" H 5100 4600 50  0001 C CNN
+	1    5100 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:GND #U$012
+U 1 1 CB8F9854
+P 4800 5100
+F 0 "#U$012" H 4800 5100 50  0001 C CNN
+F 1 "GND" H 4740 5000 42  0000 L BNN
+F 2 "" H 4800 5100 50  0001 C CNN
+F 3 "" H 4800 5100 50  0001 C CNN
+	1    4800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:AVCC #U$013
+U 1 1 777B985C
+P 8800 1300
+F 0 "#U$013" H 8800 1300 50  0001 C CNN
+F 1 "AVCC" H 8740 1340 42  0000 L BNN
+F 2 "" H 8800 1300 50  0001 C CNN
+F 3 "" H 8800 1300 50  0001 C CNN
+	1    8800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:VCC #P+01
+U 1 1 BCDF72C5
+P 3300 1300
+F 0 "#P+01" H 3300 1300 50  0001 C CNN
+F 1 "VCC" H 3240 1340 42  0000 L BNN
+F 2 "" H 3300 1300 50  0001 C CNN
+F 3 "" H 3300 1300 50  0001 C CNN
+	1    3300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:USBMINIBLARGE X3
+U 1 1 B6AFBBF0
+P 3900 2400
+F 0 "X3" H 3500 2740 42  0000 L BNN
+F 1 "06564" H 3500 2000 42  0000 L BNN
+F 2 "Adafruit USB Isolator:USB-MINIB_LARGER" H 3900 2400 50  0001 C CNN
+F 3 "" H 3900 2400 50  0001 C CNN
+	1    3900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:SWITCH_DPDTEG1390 SW1
+U 1 1 E9E31E47
+P 8500 4800
+F 0 "SW1" H 8325 5150 42  0000 L BNN
+F 1 "SWITCH_DPDTEG1390" H 8300 4350 42  0000 L BNN
+F 2 "Adafruit USB Isolator:EG1390" H 8500 4800 50  0001 C CNN
+F 3 "" H 8500 4800 50  0001 C CNN
+	1    8500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:GND #U$015
+U 1 1 D0458224
+P 8800 4500
+F 0 "#U$015" H 8800 4500 50  0001 C CNN
+F 1 "GND" H 8740 4400 42  0000 L BNN
+F 2 "" H 8800 4500 50  0001 C CNN
+F 3 "" H 8800 4500 50  0001 C CNN
+	1    8800 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:AGND #U$017
+U 1 1 48FA5267
+P 8800 4900
+F 0 "#U$017" H 8800 4900 50  0001 C CNN
+F 1 "AGND" H 8740 4800 42  0000 L BNN
+F 2 "" H 8800 4900 50  0001 C CNN
+F 3 "" H 8800 4900 50  0001 C CNN
+	1    8800 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:LED0805_NOOUTLINE D1
+U 1 1 64483B64
+P 9100 3600
+F 0 "D1" H 9050 3775 42  0000 C CNN
+F 1 "GREEN" H 9050 3490 42  0000 C CNN
+F 2 "Adafruit USB Isolator:CHIPLED_0805_NOOUTLINE" H 9100 3600 50  0001 C CNN
+F 3 "" H 9100 3600 50  0001 C CNN
+	1    9100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:RESISTOR0805_NOOUTLINE R5
+U 1 1 0CA4E244
+P 9500 3600
+F 0 "R5" H 9500 3700 50  0000 C CNN
+F 1 "1K" H 9500 3600 40  0000 C CNB
+F 2 "Adafruit USB Isolator:0805-NO" H 9500 3600 50  0001 C CNN
+F 3 "" H 9500 3600 50  0001 C CNN
+	1    9500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_USB_Isolator-eagle-import:AGND #U$018
+U 1 1 205CF6AB
+P 9800 3800
+F 0 "#U$018" H 9800 3800 50  0001 C CNN
+F 1 "AGND" H 9740 3700 42  0000 L BNN
+F 2 "" H 9800 3800 50  0001 C CNN
+F 3 "" H 9800 3800 50  0001 C CNN
+	1    9800 3800
+	1    0    0    -1  
+$EndComp
+Text Notes 5100 3000 0    59   ~ 0
+R1/R2/R3/R4: Use 1% resistors
+Text Notes 4300 1100 0    59   ~ 0
+Note: Limited to 100mA supply and Low/High speed USB (12Mbps)
+Text Notes 7800 4200 0    59   ~ 0
+Full speed, set SPU/SPD high\nLow speed, set SPU/SPD low
+$EndSCHEMATC

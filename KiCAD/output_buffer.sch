@@ -112,7 +112,7 @@ F 3 "" H 3200 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 3850 750  1    60   UnSpc ~ 0
-Vcc
+Vcc_5V
 Text HLabel 1350 1750 0    60   Input ~ 0
 A0
 Text HLabel 1350 1950 0    60   Input ~ 0
@@ -130,7 +130,7 @@ B2
 Text HLabel 5250 2350 2    60   Output ~ 0
 B3
 Text HLabel 3200 2600 1    60   UnSpc ~ 0
-Vcc
+Vcc_5V
 $Comp
 L Device:C C4
 U 1 1 58595141

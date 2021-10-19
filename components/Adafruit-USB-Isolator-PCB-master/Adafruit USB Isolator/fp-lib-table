@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Adafruit USB Isolator")(type KiCad)(uri "$(KIPRJMOD)/Adafruit USB Isolator.pretty")(options "")(descr ""))
+)

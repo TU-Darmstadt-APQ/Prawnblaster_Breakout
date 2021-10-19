@@ -133,7 +133,7 @@ Wire Wire Line
 Text Notes 6600 950  0    60   ~ 0
 Protection diode, because of the high output capacitance.\nCan be of any 1N4002 or higher type.
 Text HLabel 7650 1550 2    60   UnSpc ~ 0
-Vcc
+Vcc_5V
 $Sheet
 S 2450 1400 1850 500 
 U 5859057F
@@ -229,4 +229,56 @@ Wire Wire Line
 Wire Wire Line
 	2350 1150 1150 1150
 Connection ~ 1150 1150
+NoConn ~ 1050 1250
+NoConn ~ 1050 1350
+NoConn ~ 1050 1450
+NoConn ~ 1050 1550
+NoConn ~ 1050 1650
+NoConn ~ 1050 1750
+NoConn ~ 1050 1850
+NoConn ~ 1050 1950
+NoConn ~ 1050 2050
+NoConn ~ 1050 2150
+NoConn ~ 1050 2250
+NoConn ~ 1050 2350
+NoConn ~ 1050 2450
+NoConn ~ 1050 2550
+NoConn ~ 1050 2650
+NoConn ~ 1050 2750
+NoConn ~ 1050 3550
+NoConn ~ 1050 3450
+NoConn ~ 1050 3350
+NoConn ~ 1050 3250
+NoConn ~ 1050 3150
+NoConn ~ 1050 3050
+NoConn ~ 1050 2950
+NoConn ~ 1050 2850
+NoConn ~ 1050 4450
+NoConn ~ 1050 4550
+NoConn ~ 1050 4650
+NoConn ~ 1050 4750
+NoConn ~ 1050 4850
+NoConn ~ 1050 4950
+NoConn ~ 1050 5050
+NoConn ~ 1050 5150
+NoConn ~ 1050 5250
+NoConn ~ 1050 5350
+NoConn ~ 1050 5450
+NoConn ~ 1050 5550
+NoConn ~ 1050 5650
+NoConn ~ 1050 5750
+NoConn ~ 1050 5850
+NoConn ~ 1050 5950
+NoConn ~ 1050 6050
+NoConn ~ 1050 6150
+NoConn ~ 1050 6250
+NoConn ~ 1050 6350
+NoConn ~ 1050 6450
+NoConn ~ 1050 6550
+NoConn ~ 1050 6650
+NoConn ~ 1050 6750
+NoConn ~ 1050 6850
+NoConn ~ 1050 6950
+NoConn ~ 1050 7050
+NoConn ~ 1050 7150
 $EndSCHEMATC
