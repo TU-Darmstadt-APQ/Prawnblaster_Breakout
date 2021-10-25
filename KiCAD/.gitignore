@@ -18,3 +18,5 @@ Thumbs.db
 *-cache.lib
 fp-info-cache
 _autosave-*
+*rescue.dcm
+*rescue.lib
