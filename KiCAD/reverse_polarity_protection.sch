@@ -114,4 +114,6 @@ Wire Wire Line
 Connection ~ 5200 2450
 Wire Wire Line
 	5200 2450 5650 2450
+Text Notes 3300 2750 0    50   ~ 0
+Alternative:\nInfineon\nBSP613P H6327
 $EndSCHEMATC
